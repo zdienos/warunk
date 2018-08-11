@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/ac2e1f08d61131bfe921030b06b680a7/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/ac2e1f08d61131bfe921030b06b680a7/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/surface_view.xml",
+        "source": "/Users/ivaniddo/ReactProject/warunk/node_modules/react-native-camera/android/build/intermediates/packaged_res/debug/layout/surface_view.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/dev_loading_view.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/e6bb25a7fe9666aa842b6f9b7015c848/res/layout/dev_loading_view.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/ac2e1f08d61131bfe921030b06b680a7/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/e6bb25a7fe9666aa842b6f9b7015c848/res/layout/fps_view.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/tooltip.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/tooltip.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/redbox_view.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/e6bb25a7fe9666aa842b6f9b7015c848/res/layout/redbox_view.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/redbox_item_title.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/e6bb25a7fe9666aa842b6f9b7015c848/res/layout/redbox_item_title.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/ac2e1f08d61131bfe921030b06b680a7/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/ac2e1f08d61131bfe921030b06b680a7/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/redbox_item_frame.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/e6bb25a7fe9666aa842b6f9b7015c848/res/layout/redbox_item_frame.xml"
+    },
+    {
+        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/38b7cb935ce816db5213ab00888fe90b/res/layout/notification_template_media.xml"
+    }
+]
