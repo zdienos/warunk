@@ -16,7 +16,7 @@ const AppNavigator = StackNavigator({
     scanner: { screen: BarcodeScanner },
 }, {
     headerMode: 'none',
-    initialRouteName: 'scanner'
+    initialRouteName: 'splash'
 });
 
 export default AppNavigator;
