@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/schema.cpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/schema.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/features.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/config.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/object_schema.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/string_data.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/null.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/optional.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/utilities.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/assert.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/terminate.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/to_string.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/version.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/safe_int_ops.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/type_traits.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/type_list.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/exceptions.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/object_store.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/property.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/util/tagged_bool.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/table_ref.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/bind_ptr.hpp

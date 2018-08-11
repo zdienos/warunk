@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/jsc/jsc_value.cpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/jsc/jsc_value.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/jsc/jsc_protected.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/jsc/jsc_types.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/js_types.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/execution_context_id.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/util/aligned_union.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/assert.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/features.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/config.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/terminate.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/to_string.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/version.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/optional.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/property.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/util/tagged_bool.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/binary_data.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/owned_data.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/utilities.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/safe_int_ops.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/type_traits.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/type_list.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/string_data.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/null.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/exceptions.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/mixed.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/data_type.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/olddatetime.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/timestamp.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/jsc/jsc_string.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/jsc/jsc_function.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/jsc/jsc_object.hpp

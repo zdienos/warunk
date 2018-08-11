@@ -1,0 +1,52 @@
+dependencies: \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/RealmReact/RealmReact.mm \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/RealmReact/RealmReact.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/RealmReact/RealmAnalytics.h \
+  ../../../react-native/React/Base/RCTBridge+Private.h \
+  /Users/ivaniddo/ReactProject/warunk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/ivaniddo/ReactProject/warunk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/ivaniddo/ReactProject/warunk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/ivaniddo/ReactProject/warunk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/ivaniddo/ReactProject/warunk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/ivaniddo/ReactProject/warunk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/ivaniddo/ReactProject/warunk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  ../../../react-native/React/Base/RCTJavaScriptExecutor.h \
+  ../../src/jsc/jsc_init.h ../../src/object-store/src/shared_realm.hpp \
+  ../../src/object-store/src/execution_context_id.hpp \
+  ../../src/object-store/src/util/aligned_union.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/assert.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/features.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/config.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/terminate.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/to_string.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/version.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/optional.hpp \
+  ../../src/object-store/src/schema.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/binary_data.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/owned_data.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/utilities.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/safe_int_ops.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/type_traits.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/util/type_list.hpp \
+  ../../src/object-store/src/impl/realm_coordinator.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/version_id.hpp \
+  ../../vendor/GCDWebServer/GCDWebServer/Core/GCDWebServer.h \
+  ../../vendor/GCDWebServer/GCDWebServer/Core/GCDWebServerRequest.h \
+  ../../vendor/GCDWebServer/GCDWebServer/Core/GCDWebServerResponse.h \
+  ../../vendor/GCDWebServer/GCDWebServer/Requests/GCDWebServerDataRequest.h \
+  ../../vendor/GCDWebServer/GCDWebServer/Responses/GCDWebServerDataResponse.h \
+  ../../vendor/GCDWebServer/GCDWebServer/Responses/GCDWebServerErrorResponse.h \
+  ../../vendor/GCDWebServer/GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h \
+  ../../src/rpc.hpp ../../src/concurrent_deque.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/json.hpp \
+  ../../src/jsc/jsc_types.hpp ../../src/js_types.hpp \
+  ../../src/object-store/src/property.hpp \
+  ../../src/object-store/src/util/tagged_bool.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/string_data.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/null.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/exceptions.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/mixed.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/data_type.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/olddatetime.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/react-native/ios/../../vendor/realm-ios/include/realm/timestamp.hpp \
+  ../../src/jsc/jsc_protected.hpp

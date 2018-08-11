@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/sync/impl/sync_file.cpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/sync/impl/sync_file.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/sync/sync_user.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/util/atomic_shared_ptr.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/optional.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/features.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/config.h \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/object-store/src/util/time.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/file.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/utilities.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/assert.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/terminate.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/to_string.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/version.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/safe_int_ops.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/type_traits.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/type_list.hpp \
+  /Users/ivaniddo/ReactProject/warunk/node_modules/realm/src/../vendor/realm-ios/include/realm/util/scope_exit.hpp
