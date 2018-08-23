@@ -1,8 +1,10 @@
+<script src="http://localhost:8097"></script>
 import { View, StyleSheet, Text , Image, ScrollView} from 'react-native';
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
 import Realm from 'realm';
+import { Dimensions } from 'react-native'
 
 import { Avatar, Icon, Card, ListItem, Toolbar, Button, Subheader, Divider } from 'react-native-material-ui';
 import Container from '../components/Container';
@@ -22,15 +24,19 @@ class Home extends Component {
                 location: '',
             }
         };
+
     }
 
     componentWillMount() {
 
-       
+
     }
 
     render() {
         const date = new Date().toString();
+        const dimensions = Dimensions.get('window');
+        const imageHeight = Math.round(dimensions.width * 1 / 1.505);
+        const imageWidth = dimensions.width;
         return (
             <Container>
                 <Toolbar
@@ -39,46 +45,46 @@ class Home extends Component {
                     onRightElementPress={() => this.props.navigation.navigate('scanner')}
                 />
                 <ScrollView>
-                <Card>
-                    <View style={styles.headerImageContainer}>
-                        <Image source={require('../gunung.jpg')} resizeMode="contain" style={styles.headerImage}/>
-                    </View>
-                    <ListItem
-                        leftElement={<Avatar text= {getInisial(this.state.warunkId.name)}  />}
-                        centerElement={{
-                            primaryText: this.state.warunkId.name,
-                            secondaryText: '3 weeks ago',
-                        }}
-                    />
-                </Card>
-                <Card>
+                    <Card style={styles.headerImageContainer}>
+                        <View style={styles.headerImageContainer}>
+                            <Image source={require('../gunung.jpg')} resizeMode="contain" style={{ height: imageHeight, width: imageWidth }}/>
+                        </View>
+                        <ListItem
+                            leftElement={<Avatar text= {getInisial(this.state.warunkId.name)}  />}
+                            centerElement={{
+                                primaryText: this.state.warunkId.name,
+                                secondaryText: '3 weeks ago',
+                            }}
+                        />
+                    </Card>
+                    <Card>
 
-                    <ListItem
-                        leftElement="shopping-cart"
-                        centerElement={{
-                            primaryText: 'Transaksi',
-                        }}
-                        onPress={() => this.props.navigation.navigate('transaction')}
-                    />
-                    <Divider/>
-                    <ListItem
-                        leftElement="local-offer"
-                        centerElement={{
-                            primaryText: 'Daftar Barang',
-                            secondaryText: '28.018 Items',
-                        }}
-                        onPress={() => this.props.navigation.navigate('products')}
-                    />
-                    <Divider/>
-                    <ListItem
-                        leftElement="settings"
-                        centerElement={{
-                            primaryText: 'Pengaturan',
-                        }}
-                        onPress={() => this.props.navigation.navigate('settings')}
-                    />
-                </Card>
-            </ScrollView>
+                        <ListItem
+                            leftElement="shopping-cart"
+                            centerElement={{
+                                primaryText: 'Transaksi',
+                            }}
+                            onPress={() => this.props.navigation.navigate('transaction')}
+                        />
+                        <Divider/>
+                        <ListItem
+                            leftElement="local-offer"
+                            centerElement={{
+                                primaryText: 'Daftar Barang',
+                                secondaryText: '28.018 Items',
+                            }}
+                            onPress={() => this.props.navigation.navigate('products')}
+                        />
+                        <Divider/>
+                        <ListItem
+                            leftElement="settings"
+                            centerElement={{
+                                primaryText: 'Pengaturan',
+                            }}
+                            onPress={() => this.props.navigation.navigate('settings')}
+                        />
+                    </Card>
+                </ScrollView>
             </Container>
 
         );
@@ -99,12 +105,11 @@ const styles = StyleSheet.create({
         alignContent: 'space-between'
     },
     headerImage:{
-        flex:1,
-        alignSelf: 'center',
-        height: 250,
+          width: '100%'
     },
     headerImageContainer:{
-        backgroundColor: 'red',
+        backgroundColor: 'blue',
+        flex: 1
     }
 });
 
