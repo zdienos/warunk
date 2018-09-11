@@ -11,7 +11,7 @@ import Container from '../components/Container';
 import { WarunkSchema } from '../components/RealmSchema';
 import { getInisial } from '../components/Helper';
 
-class Home extends Component {
+class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -128,5 +128,5 @@ function mapStateToProps(state) {
     };
 }
 
-const connectedHome = connect(mapStateToProps)(Home);
-export { connectedHome as Home };
+const connectedLogin = connect(mapStateToProps)(Login);
+export { connectedHome as Login };
