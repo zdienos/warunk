@@ -18,58 +18,12 @@ class Register extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <View>
-                    <Text style={styles.text}>
-                        NAMA LENGKAP
-                    </Text>
-                    <TextInput
-                    {...this.props}
-                    editable = {true}
-                    maxLength = {40}
-                    underlineColorAndroid='rgba(0,0,0,0)'
-                    style={styles.textInput}
-                    />
-                </View>
-                <View>
-                    <Text style={styles.text}>
-                        EMAIL
-                    </Text>
-                    <TextInput
-                    {...this.props}
-                    editable = {true}
-                    maxLength = {40}
-                    underlineColorAndroid='rgba(0,0,0,0)'
-                    style={styles.textInput}
-                    />
-                </View>
-                <View>
-                    <Text style={styles.text}>
-                        PASSWORD
-                    </Text>
-                    <TextInput
-                    {...this.props}
-                    editable = {true}
-                    maxLength = {40}
-                    underlineColorAndroid='rgba(0,0,0,0)'
-                    style={styles.textInput}
-                    />
-                </View>
-                <View>
-                    <Text style={styles.text}>
-                        KONFIRMASI PASSWORD
-                    </Text>
-                    <TextInput
-                    {...this.props}
-                    editable = {true}
-                    maxLength = {40}
-                    underlineColorAndroid='rgba(0,0,0,0)'
-                    style={styles.textInput}
-                    />
-                </View>
+                <LabelInput label="NAMA LENGKAP"/>
+                <LabelInput label="EMAIL" />
+                <LabelInput label="PASSWORD"/>
+                <LabelInput label="KONFIRMASI PASSWORD"/>
 
                 <Button btnText="SELANJUTNYA" style={styles.btn}/>
-
-
             </View>
 
 
@@ -78,14 +32,15 @@ class Register extends Component {
 }
 
 const styles = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
-        display: 'flex',
         paddingLeft: 15,
-        paddingRight: 15
+        paddingRight: 15,
+        backgroundColor: 'rgba(255,255,255,1)',
+        flexDirection: 'column',
+        flex: 1
     },
-    text: {
-        marginTop: 20
-    },
+
     btn: {
         backgroundColor: 'rgba(0,0,0,0.2)',
         color: '#ffffff',
@@ -96,22 +51,10 @@ const styles = StyleSheet.create({
         paddingBottom: 10,
         marginTop: 50,
         fontSize: 16
-    },
-    textInput:{
-        borderRadius: 4,
-        borderColor: 'rgba(0,0,0,0.15)',
-        borderWidth: 1,
-        textAlignVertical: 'top',
-        paddingTop: 10,
-        paddingRight: 8,
-        paddingLeft: 8,
-        paddingBottom: 4,
-        fontSize: 16,
-        marginTop: 5,
-        padding: 0
-    },
-
+    }
 });
+
+
 
 const propTypes = {
     navigation: PropTypes.shape({
