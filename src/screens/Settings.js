@@ -1,11 +1,9 @@
 import { View, StyleSheet, Text, TextInput } from 'react-native';
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
-import Realm from 'realm';
 
 import { Avatar, Card, ListItem, Toolbar, Button, Subheader } from 'react-native-material-ui';
 import Container from '../components/Container';
-import { WarunkSchema } from '../components/RealmSchema';
 import { getInisial } from '../components/Helper';
 
 class Settings extends Component {
@@ -27,41 +25,11 @@ class Settings extends Component {
 
     componentWillMount() {
 
-        // Realm.open({
-        //   schema: [WarunkSchema],
-        //   schemaVersion: 0,
-        // }).then(realm => {
-        //   let warunkData = realm.objects('Warunk').filtered('name.@size > 0');
-        //   this.setState({
-        //     warunkId:{
-        //         name: warunkData[0].name,
-        //         owner: warunkData[0].owner,
-        //         phone: warunkData[0].phone,
-        //         address: warunkData[0].address,
-        //         picture: warunkData[0].picture,
-        //         location: warunkData[0].location,
-        //     }
-        //   });
-        // });
+     
     }
 
     handleSave(){
-        Realm.open({
-          schema: [WarunkSchema]
-        }).then(realm => {
-
-          let warunkData = realm.objects('Warunk').filtered('name.@size > 0');
-          
-          realm.write(() => {
-            warunkData[0].name = this.state.warunkId.name;
-            warunkData[0].owner = this.state.warunkId.owner;
-            warunkData[0].phone = this.state.warunkId.phone;
-            warunkData[0].address = this.state.warunkId.address;
-            warunkData[0].picture = this.state.warunkId.picture;
-            warunkData[0].location = this.state.warunkId.location;
-          });
-
-        });
+       
     }
 
     render() {

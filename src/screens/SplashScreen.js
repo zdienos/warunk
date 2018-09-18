@@ -1,10 +1,10 @@
 import { View, StyleSheet, Text , Image } from 'react-native';
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
-import Realm from 'realm';
 
 import Container from '../components/Container';
-import { WarunkSchema, ProductsSchema, TransactionSchema, SummarySchema } from '../components/RealmSchema';
+import { selectAppId, insertAppId } from '../databases/Schemas';
+import realm from '../databases/Schemas';
 
 class SplashScreen extends Component {
     constructor(props) {
@@ -18,16 +18,14 @@ class SplashScreen extends Component {
 
         //some procesing
         this.setState({info: 'Loading some data...'})
-        // Realm.open({
-        //   schema: [WarunkSchema, ProductsSchema, TransactionSchema, SummarySchema],
-        //   schemaVersion: 1,
-        //   migration: (oldRealm, newRealm) => {
-        //     console.log(oldRealm, newRealm);
-        //   }
-        // }).then(realm => {
-        //   console.log(realm);
-        // }).then();
-        setTimeout(()=>this.props.navigation.navigate('home'),5000);
+
+        selectAppId().then((appId)=>{
+            this.setState({info: appId});
+        }).catch((error)=>{
+            this.props.navigation.navigate('register');
+        })
+
+        // setTimeout(()=>this.props.navigation.navigate('home'),5000);
     }
 
     render() {

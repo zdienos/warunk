@@ -7,7 +7,7 @@ export const AppId = {
 		id : 'int',
 		name : { type : 'string', indexed : true },
 		address : 'string',
-		location: 'string'
+		location: 'string',
 		ownerName : 'string',
 		ownerPhone : 'string',
 		ownerEmail : 'string',
@@ -47,7 +47,7 @@ const databaseOptions = {
 	schemaVersion : 0
 };
 
-export const insertAppId = newAppId => new promise((resolve, reject) => {
+export const insertAppId = newAppId => new Promise((resolve, reject) => {
 	Realm.open(databaseOptions).then(realm => {
 		realm.write(() => {
 			realm.create('AppId', newAppId);
@@ -55,4 +55,53 @@ export const insertAppId = newAppId => new promise((resolve, reject) => {
 		});
 	}).catch((error) => reject(error));
 });
+
+export const selectAppId = appId => new Promise((resolve, reject) => {
+	Realm.open(databaseOptions).then(realm => {
+		realm.write(() => {
+			let selectedAppId = realm.objectForPrimaryKey('AppId');
+			resolve(selectedAppId);
+		});
+	}).catch((error) => reject(error));
+});
+
+export const updateAppId = appId => new Promise((resolve, reject) => {
+	Realm.open(databaseOptions).then(realm => {
+		realm.write(() => {
+			let newAppId = realm.objectForPrimaryKey('AppId', appId.id);
+			newAppId.name = appId.name;
+			newAppId.address  = appId.address;
+			newAppId.location = appId.location;
+			newAppId.ownerName  = appId.ownerName;
+			newAppId.ownerPhone  = appId.ownerPhone;
+			newAppId.ownerEmail  = appId.ownerEmail;
+			newAppId.ownerPassword  = appId.ownerPassword;
+			newAppId.ownerPict  = appId.ownerPict;
+			newAppId.forgotToken = appId.forgotToken;
+			resolve();
+		});
+	}).catch((error) => reject(error));
+});
+
+export const deleteAppId = appId => new Promise((resolve, reject) => {
+	Realm.open(databaseOptions).then(realm => {
+		realm.write(() => {
+			let deleteAppId = realm.objectForPrimaryKey('AppId', appId.id);
+			realm.delete(deleteAppId);
+			resolve();
+		});
+	}).catch((error) => reject(error));
+});
+
+export const clearAppId = appId => new Promise((resolve, reject) => {
+	Realm.open(databaseOptions).then(realm => {
+		realm.write(() => {
+			let deleteAppId = realm.objectForPrimaryKey('AppId');
+			realm.delete(deleteAppId);
+			resolve();
+		});
+	}).catch((error) => reject(error));
+});
+
+export default new Realm(databaseOptions);
 

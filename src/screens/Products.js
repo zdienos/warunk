@@ -18,43 +18,9 @@ class Products extends Component {
 
     componentWillMount(){
         const now = new Date();
-        // Realm.open({
-        //   schema: [ProductsSchema],
-        //   schemaVersion: 1,
-        // }).then(realm => {
-        //     let productsData = realm.objects('Products').filtered('id.@size > 0');
-        //     if(productsData.length < 1){
-        //         realm.write(() => {
-        //           realm.create('Products', {
-        //             barcode: '8998009010637',
-        //             name:  'Ultra Milk 1000ml',
-        //             buy_price: '15000',
-        //             sell_price: '17000',
-        //             unit: 'pcs',
-        //             time_stamp: now,
-        //         });
-        //       });  
-        //       console.log("Pengguna Baru");   
-        //     }
-        // });
     }
 
     handleAdd(){
-        // Realm.open({
-        //   schema: [ProductsSchema],
-        //   schemaVersion: 1,
-        // }).then(realm => {
-        //   realm.write(() => {
-        //     realm.create('Products', {
-        //       barcode: '8998009010637',
-        //       name:  'Ultra Milk 1000ml',
-        //       buy_price: '15000',
-        //       sell_price: '17000',
-        //       unit: 'pcs',
-        //       time_stamp: now,
-        //     });
-        //   });     
-        // });
         console.log("add new product");
     }
 

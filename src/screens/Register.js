@@ -1,4 +1,3 @@
-<script src="http://localhost:8097"></script>
 import { AppRegistry, View, StyleSheet, Text , Image, ScrollView, TextInput} from 'react-native';
 import React, { Component } from 'react';
 import Container from '../components/Container';
@@ -121,12 +120,4 @@ const propTypes = {
 
 Register.propTypes = propTypes;
 
-function mapStateToProps(state) {
-    const { settings } = state;
-    return {
-        settings
-    };
-}
-
-const connectedRegister = connect(mapStateToProps)(Register);
-export { connectedRegister as Register };
+export default Register

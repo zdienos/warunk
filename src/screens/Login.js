@@ -3,12 +3,10 @@ import { View, StyleSheet, Text , Image, ScrollView} from 'react-native';
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
-import Realm from 'realm';
 import { Dimensions } from 'react-native'
 
 import { Avatar, Icon, Card, ListItem, Toolbar, Button, Subheader, Divider } from 'react-native-material-ui';
 import Container from '../components/Container';
-import { WarunkSchema } from '../components/RealmSchema';
 import { getInisial } from '../components/Helper';
 
 class Login extends Component {
