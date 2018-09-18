@@ -2,6 +2,7 @@ import { AppRegistry, View, StyleSheet, Text , Image, ScrollView, TextInput} fro
 import React, { Component } from 'react';
 import Container from '../components/Container';
 import Button from '../components/Button';
+import LabelInput from '../components/LabelInput';
 
 
 import { PropTypes } from 'prop-types';
@@ -30,7 +31,6 @@ class Register extends Component {
 
 }
 
-const styles = StyleSheet.create({
 const styles = StyleSheet.create({
     container: {
         paddingLeft: 15,
