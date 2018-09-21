@@ -16,6 +16,7 @@ class LabelInput extends Component {
                     underlineColorAndroid='rgba(0,0,0,0)'
                     style={styles.textInput}
                     />
+                    <Text style={styles.errorMessage}>{this.props.errorMessage}</Text>
                 </View>
 
         );
@@ -39,6 +40,12 @@ const styles = StyleSheet.create({
         marginTop: 5,
         padding: 0
     },
+    errorMessage: {
+        position: 'absolute',
+        bottom: -16,
+        fontSize: 12,
+        color: '#f4424b'
+    }
 
 });
 

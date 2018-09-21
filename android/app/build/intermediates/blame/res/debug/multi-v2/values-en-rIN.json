@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "/home/christopher/Desktop/warunk/android/app/build/intermediates/res/merged/debug/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/values-en-rIN/values-en-rIN.xml",
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/values-en-rIN/values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "/home/christopher/Desktop/warunk/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/values-en-rIN/values-en-rIN.xml",
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/values-en-rIN/values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

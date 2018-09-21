@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/home/christopher/Desktop/warunk/android/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/e25a7d0b9fa198f7552ec1027e6b6bd3/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/home/christopher/Desktop/warunk/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/ac2e1f08d61131bfe921030b06b680a7/res/drawable-v21/notification_action_background.xml"
+        "merged": "/home/christopher/Desktop/warunk/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/home/christopher/Desktop/warunk/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

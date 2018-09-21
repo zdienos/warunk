@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/values-v22/values-v22.xml",
+            "outputFile": "/home/christopher/Desktop/warunk/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/values-v22/values-v22.xml",
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "/home/christopher/Desktop/warunk/android/app/build/intermediates/res/merged/debug/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/values-v22/values-v22.xml",
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

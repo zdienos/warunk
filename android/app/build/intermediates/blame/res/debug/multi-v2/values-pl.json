@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/values-pl/values-pl.xml",
+            "outputFile": "/home/christopher/Desktop/warunk/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/729ad282bd8f6982268ec3e8e8e61101/res/values-pl/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "198",
-                        "endOffsets": "445"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "3225",
-                        "endColumns": "198",
-                        "endOffsets": "3419"
-                    }
-                },
-                {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/values-pl/values-pl.xml",
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/values-pl/values-pl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/10d86ffa11e941cf0ca54bfb0fe220a6/res/values-pl/values.xml",
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/da44a850aa199306aa87d71cca7c039a/res/values-pl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "198",
+                        "endOffsets": "445"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "3225",
+                        "endColumns": "198",
+                        "endOffsets": "3419"
+                    }
+                },
+                {
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/e4e962bfa9cd193204e2c3d4bb0df518/res/values-pl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -57,27 +57,10 @@
             ]
         },
         {
-            "outputFile": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
+            "outputFile": "/home/christopher/Desktop/warunk/android/app/build/intermediates/res/merged/debug/values-pl/values-pl.xml",
             "map": [
                 {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/729ad282bd8f6982268ec3e8e8e61101/res/values-pl/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "198",
-                        "endOffsets": "445"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "3225",
-                        "endColumns": "198",
-                        "endOffsets": "3419"
-                    }
-                },
-                {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/18819f2e4f832702167f15f492da8ca6/res/values-pl/values-pl.xml",
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/28bbe750cc5fb86968b4e0f921786001/res/values-pl/values-pl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -94,7 +77,24 @@
                     }
                 },
                 {
-                    "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/10d86ffa11e941cf0ca54bfb0fe220a6/res/values-pl/values.xml",
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/da44a850aa199306aa87d71cca7c039a/res/values-pl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "198",
+                        "endOffsets": "445"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "3225",
+                        "endColumns": "198",
+                        "endOffsets": "3419"
+                    }
+                },
+                {
+                    "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/e4e962bfa9cd193204e2c3d4bb0df518/res/values-pl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

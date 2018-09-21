@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/ivaniddo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/ac2e1f08d61131bfe921030b06b680a7/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "/home/christopher/Desktop/warunk/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/home/christopher/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/e25a7d0b9fa198f7552ec1027e6b6bd3/res/layout-v16/notification_template_custom_big.xml"
     }
 ]

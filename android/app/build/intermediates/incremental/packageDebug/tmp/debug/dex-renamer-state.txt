@@ -1,4 +1,4 @@
-#Tue Sep 11 18:59:58 WIB 2018
-base.0=/Users/ivaniddo/ReactProject/warunk/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
+#Wed Sep 19 20:38:59 CXT 2018
+base.0=/home/christopher/Desktop/warunk/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
+path.0=classes.dex
