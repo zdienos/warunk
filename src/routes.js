@@ -4,6 +4,7 @@ import SplashScreen from './screens/SplashScreen';
 import Register from './screens/Register';
 import Home from './screens/Home';
 import Login from './screens/Login';
+import ForgotPassword from './screens/ForgotPassword';
 import BarcodeScanner from './screens/BarcodeScanner';
 import Products from './screens/Products';
 import Transaction from './screens/Transaction';
@@ -17,10 +18,11 @@ const AppNavigator = StackNavigator({
     products: { screen: Products },
     transaction: { screen: Transaction },
     settings: { screen: Settings },
+    forgotpassword: { screen: ForgotPassword},
     scanner: { screen: BarcodeScanner },
 }, {
     headerMode: 'none',
-    initialRouteName: 'register'
+    initialRouteName: 'forgotpassword'
 });
 
 export default AppNavigator;
