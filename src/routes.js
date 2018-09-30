@@ -22,7 +22,7 @@ const AppNavigator = StackNavigator({
     scanner: { screen: BarcodeScanner },
 }, {
     headerMode: 'none',
-    initialRouteName: 'forgotpassword'
+    initialRouteName: 'transaction'
 });
 
 export default AppNavigator;
