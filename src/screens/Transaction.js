@@ -1,4 +1,4 @@
-import { View, StyleSheet, Text, ScrollView, Dimensions, Image} from 'react-native';
+import { View, StyleSheet, Text, ScrollView, Dimensions, Image, TouchableOpacity, TouchableWithoutFeedback} from 'react-native';
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 
@@ -8,6 +8,19 @@ import Button from '../components/Button';
 
 
 class Transaction extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            hide: true
+        };
+
+        this.toggle = this.toggle.bind(this);
+    }
+    toggle() {
+        this.setState({
+            hide: !this.state.hide
+        });
+    }
     render() {
 
         var listCard = [];
@@ -43,12 +56,37 @@ class Transaction extends Component {
                         </View>
                     </View>
                 </View>
-                <ScrollView style={styles.listContainer}>
-                    {listCard}
+                <ScrollView style={styles.listContainerWrap}>
+                    <View style={styles.listContainer}>
+                        {listCard}
+                    </View>
                 </ScrollView>
+
                 <View style={styles.btnContainer}>
                     <Button btnText="BAYAR SEKARANG" style={styles.btn}/>
-                    <Text style={styles.actionBtn}>Holla</Text>
+                </View>
+
+                <View>
+                    {this.state.hide ?
+                        <View style={styles.writeWrapper}>
+                            <Image source={require('../img/write.png')} resizeMode="contain" style={styles.writeIcon}/>
+                        </View> : null
+                    }
+                    {this.state.hide ?
+                        <View style={styles.barcodeWrapper}>
+                            <Image source={require('../img/barcode.png')} resizeMode="contain" style={styles.barcodeIcon}/>
+                        </View> : null
+                    }
+                    <TouchableOpacity onPress={this.toggle}  style={styles.closeWrapper}>
+                        <View>
+                            {this.state.hide ?
+                                <Image source={require('../img/close.png')} resizeMode="contain" style={styles.closeIcon}/>
+                                :
+                                <Image source={require('../img/close.png')} resizeMode="contain" style={styles.closeIcons}/>
+                            }
+                        </View>
+                    </TouchableOpacity>
+
                 </View>
 
             </Container>
@@ -69,7 +107,7 @@ const styles = StyleSheet.create({
         paddingBottom: 16,
     },
     toolbar: {
-        backgroundColor: 'rgba(255,255,255,1)'
+        backgroundColor: '#2d54e1'
     },
     shape: {
         position: 'absolute',
@@ -104,13 +142,16 @@ const styles = StyleSheet.create({
         right: 35,
         color: '#fff'
     },
+    listContainerWrap: {
+        marginTop: imageHeight - 100
+    },
     listContainer: {
         display: 'flex',
         paddingLeft: 35,
         paddingRight: 35,
         paddingTop: 25,
-        paddingBottom: 45,
-        marginTop: imageHeight - 100
+        paddingBottom: 25,
+        marginBottom: 50
     },
     listCard: {
         paddingBottom: 10,
@@ -141,8 +182,8 @@ const styles = StyleSheet.create({
     btnContainer: {
         display: 'flex',
         backgroundColor: '#ffffff',
-        paddingTop: 10,
-        paddingBottom: 10,
+        paddingTop: 15,
+        paddingBottom: 15,
         position: 'absolute',
         width: fullWidth,
         bottom: 0
@@ -162,9 +203,65 @@ const styles = StyleSheet.create({
     },
     actionBtn: {
         position: 'absolute',
-        marginLeft: (fullWidth/2 + 50),
-        top: 20
+        left: 0
+    },
+    writeWrapper: {
+        position: 'absolute',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        right: 35,
+        width: 50,
+        height: 50,
+        bottom: 135,
+        borderRadius: 60,
+        backgroundColor: '#3ED538'
+    },
+    writeIcon: {
+        width: 30,
+        height: 30,
+    },
+    barcodeWrapper: {
+        position: 'absolute',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        right: 35,
+        width: 50,
+        height: 50,
+        bottom: 75,
+        padding: 10,
+        borderRadius: 60,
+        backgroundColor: '#333'
+    },
+    barcodeIcon: {
+        width: 30,
+        height: 30,
+    },
+    closeWrapper: {
+        position: 'absolute',
+        right: 30,
+        width: 60,
+        height: 60,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        bottom: 5,
+        borderRadius: 60,
+        backgroundColor: '#EACA4F'
+    },
+    closeIcon: {
+        width: 30,
+        height: 30,
+    },
+    closeIcons: {
+        width: 30,
+        height: 30,
+        transform: [{ rotate: '45deg'}]
     }
+
+
+
 });
 
 const propTypes = {
