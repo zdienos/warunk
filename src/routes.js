@@ -9,6 +9,8 @@ import BarcodeScanner from './screens/BarcodeScanner';
 import Products from './screens/Products';
 import Transaction from './screens/Transaction';
 import Settings from './screens/Settings';
+import Dashboard from './screens/Dashboard';
+
 
 const AppNavigator = StackNavigator({
 	splash: { screen: SplashScreen},
@@ -20,9 +22,11 @@ const AppNavigator = StackNavigator({
     settings: { screen: Settings },
     forgotpassword: { screen: ForgotPassword},
     scanner: { screen: BarcodeScanner },
+    dashboard: { screen: Dashboard },
+
 }, {
     headerMode: 'none',
-    initialRouteName: 'transaction'
+    initialRouteName: 'dashboard'
 });
 
 export default AppNavigator;
