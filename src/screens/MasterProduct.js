@@ -12,7 +12,7 @@ class MasterProduct extends Component {
     constructor(props){
         super(props);
         this.state = {
-            hide: true
+            hide: false
         };
 
         this.toggle = this.toggle.bind(this);
@@ -54,12 +54,35 @@ class MasterProduct extends Component {
                     <Image source={require('../img/ic_search_grey.png')} style={styles.iconSearch}/>
                     <TextInput maxLength= {40} placeholder="Cari Barang" underlineColorAndroid='rgba(0,0,0,0)'style={styles.textInput}/>
                 </View>
-
+                <View style={styles.blocker}>
+                </View>
                 <ScrollView style={styles.listContainerWrap}>
                     <View style={styles.listContainer}>
                         {listCard}
                     </View>
                 </ScrollView>
+                <View>
+                    {this.state.hide ?
+                        <View style={styles.writeWrapper}>
+                            <Image source={require('../img/write.png')} resizeMode="contain" style={styles.writeIcon}/>
+                        </View> : null
+                    }
+                    {this.state.hide ?
+                        <View style={styles.barcodeWrapper}>
+                            <Image source={require('../img/barcode.png')} resizeMode="contain" style={styles.barcodeIcon}/>
+                        </View> : null
+                    }
+                    <TouchableOpacity onPress={this.toggle}  style={styles.closeWrapper}>
+                        <View>
+                            {this.state.hide ?
+                                <Image source={require('../img/close.png')} resizeMode="contain" style={styles.closeIcon}/>
+                                :
+                                <Image source={require('../img/close.png')} resizeMode="contain" style={styles.closeIcons}/>
+                            }
+                        </View>
+                    </TouchableOpacity>
+
+                </View>
 
             </Container>
         );
@@ -72,7 +95,8 @@ const imageHeight = Math.round(fullWidth * 1 / 2.21);
 const imageWidth = fullWidth;
 const styles = StyleSheet.create({
     container: {
-        position: 'relative'
+        position: 'relative',
+        backgroundColor: '#fff'
     },
     textContainer: {
         paddingHorizontal: 16,
@@ -80,23 +104,33 @@ const styles = StyleSheet.create({
     },
     searchContainer: {
         position: 'relative',
-        marginTop: 12
+        marginTop: 10,
+        width: fullWidth * 0.8,
+        marginLeft: fullWidth * 0.08,
+        paddingTop: 5,
+        borderRadius: 4,
+        zIndex: 100,
+        backgroundColor: '#fff'
     },
     iconSearch: {
         position: 'absolute',
         width: 13,
         height: 13,
         zIndex: 30,
-        top: 21,
-        left: (fullWidth * 0.1) +  10
+        top: 18,
+        left: 10
+    },
+    blocker: {
+        marginTop: -30,
+        zIndex: 1,
+        height: 50,
+        backgroundColor: '#ffffff'
     },
     textInput:{
         borderRadius: 4,
         borderColor: 'rgba(0,0,0,0.15)',
         borderWidth: 1,
         backgroundColor: 'white',
-        width: fullWidth * 0.8,
-        marginLeft: fullWidth * 0.1,
         textAlignVertical: 'top',
         paddingTop: 14,
         paddingRight: 8,
@@ -110,7 +144,8 @@ const styles = StyleSheet.create({
         left:0,
         top: -80,
         height: imageHeight,
-        width: imageWidth
+        width: imageWidth,
+        backgroundColor: '#ffffff'
     },
 
     dataBarang: {
@@ -127,10 +162,10 @@ const styles = StyleSheet.create({
         marginBottom: 15
     },
     arrowLeft: {
-        width: 37.5,
-        height: 22.5,
+        width: 30,
+        height: 18,
         marginRight: 20,
-        marginTop: 15,
+        top: 26,
         position: 'absolute',
         left: fullWidth * 0.1
     },
@@ -148,7 +183,7 @@ const styles = StyleSheet.create({
         color: '#fff'
     },
     listContainerWrap: {
-        marginTop: imageHeight - 150
+        backgroundColor: '#ffffff'
     },
     listContainer: {
         display: 'flex',
@@ -188,32 +223,6 @@ const styles = StyleSheet.create({
         color: '#333333',
         fontSize: 16
     },
-    btnContainer: {
-        display: 'flex',
-        backgroundColor: '#ffffff',
-        paddingTop: 15,
-        paddingBottom: 15,
-        position: 'absolute',
-        width: fullWidth,
-        bottom: 0
-    },
-    btn: {
-        color: 'rgba(255,255,255,1)',
-        backgroundColor: '#333',
-        width: 200,
-        textAlign: 'center',
-        alignItems: 'center',
-        justifyContent: 'center',
-        margin: 'auto',
-        marginLeft: (fullWidth/2 - 100),
-        paddingTop: 10,
-        paddingBottom: 10,
-        borderRadius: 4
-    },
-    actionBtn: {
-        position: 'absolute',
-        left: 0
-    },
     writeWrapper: {
         position: 'absolute',
         display: 'flex',
@@ -222,7 +231,7 @@ const styles = StyleSheet.create({
         right: 35,
         width: 50,
         height: 50,
-        bottom: 135,
+        bottom: 180,
         borderRadius: 60,
         backgroundColor: '#3ED538'
     },
@@ -238,7 +247,7 @@ const styles = StyleSheet.create({
         right: 35,
         width: 50,
         height: 50,
-        bottom: 75,
+        bottom: 120,
         padding: 10,
         borderRadius: 60,
         backgroundColor: '#333'
@@ -255,7 +264,7 @@ const styles = StyleSheet.create({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        bottom: 5,
+        bottom: 50,
         borderRadius: 60,
         backgroundColor: '#EACA4F'
     },

@@ -45,7 +45,7 @@ class Transaction extends Component {
                     leftElement="arrow-back"
                     centerElement="Transaksi"
                 />
-                <View>
+                <View style={styles.overrider}>
                     <Image source={require('../img/shape-dashboard.png')} resizeMode="contain" style={styles.shape}/>
                     <View style={styles.invContainer}>
                         <Text style={styles.total}>Total</Text>
@@ -56,6 +56,8 @@ class Transaction extends Component {
                         </View>
                     </View>
                 </View>
+                <View style={styles.blocker}></View>
+
                 <ScrollView style={styles.listContainerWrap}>
                     <View style={styles.listContainer}>
                         {listCard}
@@ -100,7 +102,8 @@ const imageHeight = Math.round(fullWidth * 1 / 2.21);
 const imageWidth = fullWidth;
 const styles = StyleSheet.create({
     container: {
-        position: 'relative'
+        position: 'relative',
+        backgroundColor: '#ffffff'
     },
     textContainer: {
         paddingHorizontal: 16,
@@ -108,6 +111,10 @@ const styles = StyleSheet.create({
     },
     toolbar: {
         backgroundColor: '#2d54e1'
+    },
+    overrider: {
+        backgroundColor: '#ffffff',
+        height: imageHeight
     },
     shape: {
         position: 'absolute',
@@ -143,7 +150,11 @@ const styles = StyleSheet.create({
         color: '#fff'
     },
     listContainerWrap: {
-        marginTop: imageHeight - 100
+        backgroundColor: '#fff',
+    },
+    blocker: {
+        height: 30,
+        backgroundColor: '#fff'
     },
     listContainer: {
         display: 'flex',
